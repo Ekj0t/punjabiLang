@@ -1,0 +1,21 @@
+{
+  "name": "PunjabiLang",
+  "fileTypes": ["punjabi"],
+  "scopeName": "source.punjabi",
+  "patterns": [
+    {
+      "name": "keyword.control.punjabi",
+      "match": "\\b(ਜੇ|ਨਾ|ਫਿਰ|ਅੰਕ|ਵਾਕ|ਲਿਖੋ|ਆਣਦੇ|ਨਹੀਂ|ਤਾਂ)\\b"
+    },
+    {
+      "name": "constant.numeric.punjabi",
+      "match": "\\b\\d+\\b"
+    },
+    {
+      "name": "string.quoted.punjabi",
+      "match": "\"[^\"\n]*\""
+    }
+  ],
+  "repository": {},
+  "uuid": "c8a8baf6-0e1c-4c18-bba2-fbb4f0d720f5"
+}
